@@ -1,0 +1,45 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    background-color: yellow;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    margin-top: 0;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+.start:hover{
+    background-color: rgb(0, 78, 13);
+    color:white;
+}
+#number_of_objects,#status{
+    background-color: rgb(255, 0, 191);
+    color:white;
+    font-size:18px;
+}
+.copyright_footer{
+    background-color: rgb(255, 217, 0);
+    color: rgb(0, 0, 0);
+    bottom: 0;
+    width: 100%;
+    box-shadow:5px 5px 18px palevioletred;
+    text-shadow: 5px 5px 5px fuchsia;
+    line-height: 2;
+    margin-bottom: 0;
+    position:fixed;
+    font-size: 20px;
+}
+canvas{
+    margin-top:100px;
+    box-shadow:5px 5px 18px blue;
+    border: 4px solid rgb(255, 0, 0);
+    border-radius: 20px;
+}
